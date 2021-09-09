@@ -1,23 +1,93 @@
-body {background-color: #EAF6F6;
+corpo {
+	fonte :  14 px  "Lucida Grande" ,  "Trebuchet MS" , Verdana , sem serifa;
+	cor :  # 3b3b3b ;
 }
 
-h1{ color: #66BFBF;
+h1 , h2 {
+	família da fonte : Georgia;
+}
+
+h1 {
+	borda inferior :  3 px sólidos # aaa ;
+	cor de fundo :  # 3b3b3b ;
+	cor :  # ddd ;
+	preenchimento :  5 px ;
+}
+
+h2 {
+	borda superior :  1 px sólido # ccc ;
+	borda inferior :  1 px sólido # ccc ;
+	cor de fundo :  # DDD ;
+	padding-left :  5 px ;
+	margem :  0  0  0  -15 px ;
+	peso da fonte : normal;
+}
+
+. secao {
+	cor de fundo :  # eee ;
+	padding-left :  15 px ;
+}
+
+label {
+	peso da fonte : negrito;
+	margem direita :  10 px ;
+}
+
+etiqueta : após {
+	conteúdo :  ":" ;
+}
+
+a {
+	decoração de texto : nenhum;
+	cor :  # f33 ;
+}
+
+a : visitou {
+	decoração de texto : nenhum;
+	cor :  # 700 ;
+}
+
+a : hover {
+	decoração de texto : nenhum;
+	cor :  # fa0 ;
+}
+
+# menu {
+	margem :  0 ;
+}
+
+# menu  ul ,  # menu  li {
+	display : embutido;
+	tipo de estilo de lista : nenhum;
+	margem :  0 ;
+	preenchimento :  0 ;
+}
+
+# menu . ativo {
+	cor de fundo :  # ddd ;
+}
+
+. vcard {
+	preenchimento :  5 px ;
+}
+
+. url , . email {
+	display : bloco;
+}
+
+. foto {
+	flutuar : certo;
+	margem direita :  20 % ;
+}
+
+# footnote {
+	borda superior :  1 px tracejada # aaa ;
+	preenchimento :  5 px ;
+	fonte :  75 %  "Lucida Grande" ,  "Trebuchet MS" , Verdana , sem serifa;
 
 }
 
-
-h3{
-  color: #66BFBF;
-
-
-}
-
-hr
-{
-  border-style: none;
-    border-top-style: dotted;
-  border-color: purple;
-  border-width: 5px;
-    widht: 10%;
-
+# footnote  li {
+	tipo de estilo de lista : nenhum;
+	margem superior :  3 px ;
 }
